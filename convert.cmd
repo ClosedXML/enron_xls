@@ -8,12 +8,12 @@ REM the variable is delayed expanded, when it's in exclamation marks, e.g. !COUN
 setlocal enabledelayedexpansion
 set COUNT=0
 REM directory must be *absolute* path, otherwise 
-set FILES_PATTERN=c:\Users\havli\source\repos\enron_xls\edrm\*.xls
+set FILES_PATTERN=c:\Users\havli\source\repos\enron_xls\nuix\*.xls
 
 REM how many files skip before taking the files
-set SKIP=300
+set SKIP=0
 REM How many files to convert
-set TAKE=100
+set TAKE=618
 
 set /a END=SKIP+TAKE
 
